@@ -1,0 +1,66 @@
+User-agent: *
+Allow: /
+Allow: /ai-tools
+Allow: /monetization
+Allow: /info-gap
+Allow: /data-analysis
+Allow: /creation
+Disallow: /js/
+Disallow: /css/
+Disallow: /*.js$
+Disallow: /*.css$
+
+# 允许谷歌爬虫访问CSS和JS
+User-agent: Googlebot
+Allow: /
+Allow: /ai-tools
+Allow: /monetization
+Allow: /info-gap
+Allow: /data-analysis
+Allow: /creation
+Allow: /js/
+Allow: /css/
+Allow: /*.js$
+Allow: /*.css$
+
+# 百度爬虫
+User-agent: Baiduspider
+Allow: /
+Allow: /ai-tools
+Allow: /monetization
+Allow: /info-gap
+Allow: /data-analysis
+Allow: /creation
+Disallow: /js/
+Disallow: /css/
+Disallow: /*.js$
+Disallow: /*.css$
+
+# 必应爬虫
+User-agent: bingbot
+Allow: /
+Allow: /ai-tools
+Allow: /monetization
+Allow: /info-gap
+Allow: /data-analysis
+Allow: /creation
+Allow: /js/
+Allow: /css/
+Allow: /*.js$
+Allow: /*.css$
+
+# 搜狗爬虫
+User-agent: Sogou web spider
+Allow: /
+Allow: /ai-tools
+Allow: /monetization
+Allow: /info-gap
+Allow: /data-analysis
+Allow: /creation
+Disallow: /js/
+Disallow: /css/
+Disallow: /*.js$
+Disallow: /*.css$
+
+# 站点地图
+Sitemap: https://www.wangzhuaneasy.com/sitemap.xml 

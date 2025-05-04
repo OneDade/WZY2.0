@@ -1,0 +1,149 @@
+/* 分类样式 */
+.category {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.category:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.category__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.category__title {
+    font-size: 24px;
+    color: var(--text-color);
+    position: relative;
+    padding-left: 15px;
+}
+
+.category__title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 4px;
+    bottom: 4px;
+    width: 4px;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+}
+
+/* 新增：分类标题链接样式 */
+.category__title-link {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.3s;
+    position: relative;
+}
+
+.category__title-link:hover {
+    color: var(--primary-color);
+}
+
+.category__title-link::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--primary-color);
+    transition: width 0.3s ease;
+}
+
+.category__title-link:hover::after {
+    width: 100%;
+}
+
+.category__controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+.category__tabs {
+    display: flex;
+    gap: 10px;
+}
+
+.category__tab {
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: var(--text-color);
+    background-color: var(--card-bg);
+    transition: all 0.3s;
+    font-size: 14px;
+}
+
+.category__tab:hover {
+    background-color: var(--hover-color);
+}
+
+.category__tab.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* 新增: 分类描述样式 */
+.category__description {
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--text-color);
+    opacity: 0.85;
+    padding: 0 5px;
+}
+
+.category__description p {
+    margin: 0;
+}
+
+/* 响应式适配 */
+@media (max-width: 768px) {
+    .category {
+        padding: 15px;
+    }
+    
+    .category__header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    
+    .category__controls {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .category__tabs {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 5px;
+        width: 100%;
+    }
+    
+    .category__tab {
+        white-space: nowrap;
+        flex-shrink: 0;
+        font-size: 13px;
+        padding: 6px 12px;
+    }
+    
+    .category__description {
+        font-size: 14px;
+    }
+} 

@@ -1,0 +1,161 @@
+[
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "url": "https://chat.openai.com/",
+    "description": "OpenAI开发的对话式AI助手，可理解和生成自然语言或代码",
+    "icon": "https://chat.openai.com/apple-touch-icon.png",
+    "category": "ai-tools",
+    "subCategories": ["ai-assistant"],
+    "weight": 100,
+    "isHot": true
+  },
+  {
+    "id": "claude",
+    "name": "Claude AI",
+    "url": "https://claude.ai/",
+    "description": "Anthropic开发的AI助手，擅长写作、分析和问答，支持上传文档",
+    "icon": "https://claude.ai/favicon.ico",
+    "category": "ai-tools",
+    "subCategories": ["ai-assistant"],
+    "weight": 95,
+    "isHot": true
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "url": "https://www.midjourney.com/",
+    "description": "强大的AI绘画工具，通过Discord使用，生成高质量艺术图像",
+    "icon": "https://www.midjourney.com/favicon.ico",
+    "category": "ai-tools",
+    "subCategories": ["ai-art"],
+    "weight": 90,
+    "isHot": true
+  },
+  {
+    "id": "taobao-union",
+    "name": "淘宝联盟",
+    "url": "https://pub.alimama.com/",
+    "description": "阿里巴巴旗下CPS联盟，推广淘宝、天猫商品赚取佣金",
+    "icon": "https://img.alicdn.com/tfs/TB1qjZbdB9M.eBjSZFyXXcxRpXa-200-200.png",
+    "category": "monetization",
+    "subCategories": ["cps"],
+    "weight": 100,
+    "isHot": true
+  },
+  {
+    "id": "jd-union",
+    "name": "京东联盟",
+    "url": "https://union.jd.com/",
+    "description": "京东官方推广平台，推广商品获得佣金收入",
+    "icon": "https://union.jd.com/favicon.ico",
+    "category": "monetization",
+    "subCategories": ["cps"],
+    "weight": 95,
+    "isHot": true
+  },
+  {
+    "id": "google-adsense",
+    "name": "Google AdSense",
+    "url": "https://www.google.com/adsense/",
+    "description": "Google广告联盟，为网站、博客和YouTube频道投放广告获取收益",
+    "icon": "https://www.google.com/adsense/favicon.ico",
+    "category": "monetization",
+    "subCategories": ["ads"],
+    "weight": 90
+  },
+  {
+    "id": "xhs-creator",
+    "name": "小红书创作者平台",
+    "url": "https://creator.xiaohongshu.com/",
+    "description": "小红书官方创作者平台，支持创作者发布内容并获得收益",
+    "icon": "https://ci.xiaohongshu.com/40ca741a-cc90-4009-a82e-9d1af0d702e9",
+    "category": "info-gap",
+    "subCategories": ["selfmedia"],
+    "weight": 100,
+    "isHot": true
+  },
+  {
+    "id": "weibo",
+    "name": "微博",
+    "url": "https://weibo.com/",
+    "description": "中国领先的社交媒体平台，发现热点、分享生活、获取资讯",
+    "icon": "https://weibo.com/favicon.ico",
+    "category": "info-gap",
+    "subCategories": ["selfmedia"],
+    "weight": 90
+  },
+  {
+    "id": "toutiao",
+    "name": "今日头条",
+    "url": "https://www.toutiao.com/",
+    "description": "字节跳动旗下资讯平台，获取最新热点新闻和行业信息",
+    "icon": "https://lf1-cdn-tos.bytescm.com/obj/iconpark/logo_toutiao.ico",
+    "category": "info-gap",
+    "subCategories": ["news"],
+    "weight": 85
+  },
+  {
+    "id": "google-analytics",
+    "name": "Google Analytics",
+    "url": "https://analytics.google.com/",
+    "description": "Google提供的免费网站分析工具，全面监控网站流量和用户行为",
+    "icon": "https://www.google.com/analytics/favicon.ico",
+    "category": "data-analysis",
+    "subCategories": ["web-analytics"],
+    "weight": 100,
+    "isHot": true
+  },
+  {
+    "id": "baidu-tongji",
+    "name": "百度统计",
+    "url": "https://tongji.baidu.com/",
+    "description": "百度提供的站点统计分析工具，了解网站流量来源和用户行为",
+    "icon": "https://tongji.baidu.com/favicon.ico",
+    "category": "data-analysis",
+    "subCategories": ["web-analytics"],
+    "weight": 90
+  },
+  {
+    "id": "ahrefs",
+    "name": "Ahrefs",
+    "url": "https://ahrefs.com/",
+    "description": "强大的SEO工具集，分析竞争对手、关键词研究和网站审计",
+    "icon": "https://cdn.ahrefs.com/favicon.ico",
+    "category": "data-analysis",
+    "subCategories": ["seo"],
+    "weight": 85
+  },
+  {
+    "id": "canva",
+    "name": "Canva可画",
+    "url": "https://www.canva.com/",
+    "description": "简单易用的在线设计工具，创建海报、演示文稿、社交媒体图片等",
+    "icon": "https://static.canva.com/static/images/favicon.ico",
+    "category": "creation",
+    "subCategories": ["design"],
+    "weight": 100,
+    "isHot": true
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "url": "https://www.figma.com/",
+    "description": "专业的协作设计工具，支持UI/UX设计、原型制作和团队协作",
+    "icon": "https://static.figma.com/app/icon/1/favicon.svg",
+    "category": "creation",
+    "subCategories": ["design"],
+    "weight": 95
+  },
+  {
+    "id": "unsplash",
+    "name": "Unsplash",
+    "url": "https://unsplash.com/",
+    "description": "免费高质量图片资源网站，可用于商业项目，无需署名",
+    "icon": "https://unsplash.com/favicon.ico",
+    "category": "creation",
+    "subCategories": ["resources"],
+    "weight": 90,
+    "isNew": true
+  }
+] 

@@ -1,0 +1,50 @@
+/* 懒加载图片样式 */
+.lazy-image {
+    opacity: 0;
+    transition: opacity 0.5s;
+    background-color: var(--card-bg);
+    position: relative;
+}
+
+.lazy-image::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    margin: -15px 0 0 -15px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border-top-color: var(--primary-color);
+    border-bottom-color: var(--primary-color);
+    animation: lazy-loader-spin 1s linear infinite;
+    z-index: 1;
+}
+
+.lazy-loaded {
+    opacity: 1;
+}
+
+.lazy-loaded::before {
+    display: none;
+}
+
+/* 站点图标懒加载特殊样式 */
+.site-icon.lazy-image {
+    color: transparent;
+}
+
+.site-icon.lazy-loaded {
+    color: var(--icon-text);
+}
+
+@keyframes lazy-loader-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} 

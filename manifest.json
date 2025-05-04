@@ -1,0 +1,37 @@
+{
+  "name": "轻松赚导航",
+  "short_name": "轻赚导航",
+  "description": "专业的网赚资源导航平台，精选AI工具、自媒体、CPS联盟、信息差等优质资源",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4a90e2",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["business", "productivity", "tools"],
+  "shortcuts": [
+    {
+      "name": "AI工具",
+      "url": "/ai-tools",
+      "description": "查看AI工具资源"
+    },
+    {
+      "name": "变现途径",
+      "url": "/monetization",
+      "description": "查看变现资源"
+    },
+    {
+      "name": "创作平台",
+      "url": "/creation",
+      "description": "查看创作平台资源"
+    }
+  ],
+  "orientation": "any",
+  "lang": "zh-CN"
+} 
