@@ -2,19 +2,25 @@
 .DS_Store
 Thumbs.db
 
-# 临时目录
-temp_repo/
-temp/
-tmp/
-
-# 编辑器配置
-.vscode/
+# 编辑器和IDE文件
 .idea/
+.vscode/
 *.sublime-project
 *.sublime-workspace
 
-# 依赖目录
+# 临时文件
+temp_repo/
 node_modules/
+.tmp/
+*.tmp
+*.bak
+*.swp
+
+# 构建输出
+dist/
+build/
+out/
 
 # 日志文件
-*.log 
+*.log
+logs/ 
