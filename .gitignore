@@ -7,7 +7,6 @@ Thumbs.db
 .vscode/
 *.sublime-project
 *.sublime-workspace
-.cursor/
 
 # 临时文件
 temp_repo/
